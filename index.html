@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Faiyaz AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712380.png" alt="logo" class="logo">
+      <div class="head-text">
+        <h1>Faiyaz AI</h1>
+        <div id="langInfo" class="muted">Detecting language...</div>
+      </div>
+    </header>
+
+    <main id="chat" role="log" aria-live="polite"></main>
+
+    <div class="composer">
+      <input id="message" autocomplete="off" placeholder="Type message (Enter to send)..." />
+      <button id="send">Send</button>
+      <label class="btn filebtn">
+        <input id="fileInput" type="file" accept="image/*" />
+      </label>
+      <button id="genBtn" class="btn"></button>
+      <button id="ttsBtn" class="btn"></button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
